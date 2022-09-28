@@ -1,5 +1,6 @@
- #include <stdio.h>
  #include <stdlib.h>
+ #include "ft_stock_str.h"
+ #include <stdio.h>
 
  int    ft_strlen(char *str)
  {
@@ -20,8 +21,7 @@
     size = 0;
     while (src[size])
         size++;
-    size--;
-    if (!(dest = malloc(sizeof(char) * size)))
+    if (!(dest = malloc(sizeof(char) * (size + 1))))
         return (0);
     i = 0;
     while (src[i])
@@ -35,10 +35,29 @@
 
  struct s_stock_str *ft_strs_to_tab(int ac, char **av)
  {
+    t_stock_str *tab;
+    int i;
 
+    if (!(tab = malloc(sizeof(t_stock_str) * (ac + 1))))
+        return (0);
+    i = 0;
+    while (i < ac && av[i] != '\0')
+    {
+        tab[i].size = ft_strlen(av[i]);
+        tab[i].str = av[i];
+        tab[i].copy = ft_strdup(av[i]);
+        i++;
+    }
+    tab[i].str = 0;
+    return (tab);
  }
-
-
+/*
+ int    main(int ac, char **av)
+ {
+    ft_show_tab(ft_strs_to_tab(ac, av));
+    return (0);
+ }
+*/
 /*
 Create a function that takes an array of string as argument and the size of this array.
 
@@ -52,7 +71,7 @@ typedef struct s_stock_str
     int size; 
     char *str; 
     char *copy;
-} t_stock_str;
+}               t_stock_str;
 
 
 ◦ size being the length of the string; 
