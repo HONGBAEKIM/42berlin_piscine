@@ -1,7 +1,20 @@
+#ifndef FT_STOCK_STR_H
+# define FT_STOCK_STR_H
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "ft_stock_str.h"
+
+typedef struct s_stock_str 
+{
+    int size; 
+    char *str; 
+    char *copy;
+}               t_stock_str;
+
+void   ft_show_tab(struct s_stock_str *par);
+struct s_stock_str *ft_strs_to_tab(int ac, char **av);
+
+#endif
 
 int    ft_strlen(char *str)
  {
@@ -52,14 +65,6 @@ int    ft_strlen(char *str)
     tab[i].str = 0;
     return (tab);
  }
-/*
- int main(int ac, char **av)
-{
-    ft_show_tab(ft_strs_to_tab(ac, av));
-    return(0);
-}*/
- 
- 
 
  void   ft_putchar(char c)
  {
@@ -72,7 +77,9 @@ int    ft_strlen(char *str)
 
     i = 0;
     while (str[i])
+    {
         ft_putchar(str[i++]);
+    }
  }
 
  void   ft_putnbr(int nb)
@@ -107,26 +114,6 @@ int    ft_strlen(char *str)
         i++;
     }
  }
-
-
-#ifndef FT_STOCK_STR_H
-# define FT_STOCK_STR_H
-
-typedef struct s_stock_str 
-{
-    int size; 
-    char *str; 
-    char *copy;
-}               t_stock_str;
-
-void   ft_show_tab(struct s_stock_str *par);
-struct s_stock_str *ft_strs_to_tab(int ac, char **av);
-void   ft_putchar(char c);
-void   ft_putstr(char *str);
-void   ft_putnbr(int nb);
-
-#endif
-
 
  int    main(int ac, char **av)
  {
