@@ -6,13 +6,10 @@
 
 typedef struct s_stock_str 
 {
+    char *str;
     int size; 
-    char *str; 
     char *copy;
 }               t_stock_str;
-
-void   ft_show_tab(struct s_stock_str *par);
-struct s_stock_str *ft_strs_to_tab(int ac, char **av);
 
 #endif
 
@@ -55,14 +52,14 @@ int    ft_strlen(char *str)
     if (!(tab = malloc(sizeof(t_stock_str) * (ac + 1))))
         return (0);
     i = 0;
-    while (i < ac && av[i] != '\0')
+    while (i < ac)
     {
         tab[i].size = ft_strlen(av[i]);
         tab[i].str = av[i];
         tab[i].copy = ft_strdup(av[i]);
         i++;
     }
-    tab[i].str = 0;
+    //tab[i].str = 0;
     return (tab);
  }
 
