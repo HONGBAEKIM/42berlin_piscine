@@ -9,8 +9,8 @@ int ft_strlen(char *str)
         i++;
     return (i);
 }
-
+/*
 int main()
 {
     printf("%d", ft_strlen("halo"));
-}
+}*/

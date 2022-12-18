@@ -19,7 +19,7 @@ RMFLAG = rf
 	$(cc) $(CCFLAG) -c $^ -o $@ -I includes 
                             
 $(NAME) : $(OBJECTS)
-	$(AR) $(ARFLAG) $(NAME) $(OBJECTS)
+	$(AR) $(ARFLAG) -o $(NAME) $(OBJECTS)
 
 all : $(NAME)
 

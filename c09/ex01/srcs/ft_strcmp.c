@@ -10,7 +10,7 @@
         i++;
     return (s1[i] - s2[i]);
  }
-
+/*
  int main()
  {
     char a[] = "abc";
@@ -19,4 +19,4 @@
     printf("%d\n", ft_strcmp(a, b));
     printf("%d\n", strcmp(a, b));
 
- }
+ }*/
