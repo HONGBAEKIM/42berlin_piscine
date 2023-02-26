@@ -6,4 +6,4 @@
 
 # Level and how many times passed an exam.
 
-![pisciner](../pisciner/docs/images/pisciner.png "Exam is important")
+![graph](https://github.com/HONGBAEKIM/piscine42berlin/blob/master/docs/images/pisciner.png)
