@@ -4,6 +4,6 @@
 2. Average of level of all the pisciner was 6.91
 3. Last 3rd piscine 69 people get selected (1st piscine was 51, 2nd piscine was 46)
 
-# It shows pisciners Level and how many times passed an exam.
+# Level and how many times passed an exam.
 
-file:///nfs/homes/hongbaki/pisciner/docs/images/pisciner.png
+![pisciner](../pisciner/docs/images/pisciner.png "Exam is important")
