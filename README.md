@@ -5,4 +5,5 @@
 3. Last 3rd piscine 69 people get selected (1st piscine was 51, 2nd piscine was 46)
 
 # It shows pisciners Level and how many times passed an exam.
-![pisciner](../docs/images/pisciner.png)
+
+file:///nfs/homes/hongbaki/pisciner/docs/images/pisciner.png
