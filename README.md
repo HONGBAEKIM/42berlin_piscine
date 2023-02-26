@@ -6,7 +6,7 @@ I was just curious and I was bored.
 
 1. Passed at least one time of exam.
 
-2. Average of level was 6.91
+2. Average of level was 6.91 (min level 3.13, Max level 10.09)
 
 3. 69 people get selected from October(3rd) piscine. Jun(1st) was 51, August(2nd) was 46.
 
