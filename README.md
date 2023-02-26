@@ -1,6 +1,5 @@
 All the information was from the intranet.
 https://signin.intra.42.fr/users/sign_in
-I was just curious and I was bored.
 
 # Who get selected from piscine berlin42 in 2022
 
@@ -22,3 +21,21 @@ I was just curious and I was bored.
 (4th_exam >= 24)
 
 ![graph](https://github.com/HONGBAEKIM/piscine42berlin/blob/master/docs/images/pisciner.png)
+
+Percentage of pass exam times
+
+56.42% of pisciner passed 4 times of exam.
+28.40% of pisciner passed 3 times of exam.
+9.09% of pisciner passed 2 times of exam.
+6.09% of pisciner passed 3 times of exam.
+
+Percentage of Level Range
+Level 10 :  0.94%
+Level 9  :  9.27%
+Level 8  : 16.49%
+Level 7  : 34.77%
+Level 6  : 19.12%
+Level 5  : 14.53%
+Level 4  :  3.75%
+Level 3  :  1.12%
+
