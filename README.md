@@ -23,7 +23,7 @@ https://signin.intra.42.fr/users/sign_in
 ![graph](https://github.com/HONGBAEKIM/piscine42berlin/blob/master/docs/images/pisciner.png)
 
 
-# Percentage of pass exam times
+# Percentage of exam pass times
 
 56.42% of pisciner passed 4 times of exam.
 
