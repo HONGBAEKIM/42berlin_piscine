@@ -30,8 +30,8 @@ Percentage of pass exam times
 6.09% of pisciner passed 3 times of exam.
 
 Percentage of Level Range
-Level 10 :  0.94%
-Level 9  :  9.27%
+Level 10 :  0.94% \n
+Level 9  :  9.27% \n
 Level 8  : 16.49%
 Level 7  : 34.77%
 Level 6  : 19.12%
