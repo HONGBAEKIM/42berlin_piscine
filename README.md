@@ -1,6 +1,6 @@
 All the information was from the intranet.
 https://signin.intra.42.fr/users/sign_in
-I was just curious and 
+I was just curious and I was bored.
 
 # Who get selected from piscine berlin42 in 2022
 
