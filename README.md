@@ -31,7 +31,7 @@ https://signin.intra.42.fr/users/sign_in
 
 9.09% of pisciner passed 2 times of exam.
 
-6.09% of pisciner passed 3 times of exam.
+6.09% of pisciner passed 1 time of exam.
 
 
 
