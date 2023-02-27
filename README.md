@@ -14,7 +14,7 @@ https://signin.intra.42.fr/users/sign_in
 
 1.Level you can increase How many points you get from each exam and project.  
 
-2.Cut-line for each eaxm.
+2.To pass each each exam, at least this point you should get.
 (1st_exam >= 32)
 (2nd_exam >= 32)
 (3rd_exam >= 28)
